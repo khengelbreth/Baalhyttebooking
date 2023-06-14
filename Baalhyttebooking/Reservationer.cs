@@ -33,7 +33,7 @@ namespace Baalhyttebooking
         }
 
         //Opgave 6:
-        public void RegistrerReservation(int id, Reservation reservation)
+        public void RegistrerReservation(Reservation reservation)
         {
             Reservations.Add(reservation.Id, reservation);
         }

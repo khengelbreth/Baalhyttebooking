@@ -24,7 +24,7 @@ namespace Baalhyttebooking
 
             Console.WriteLine("OPGAVE 6:"); //Opgave 6:
             Reservationer resListe = new Reservationer();
-            resListe.RegistrerReservation(1,reservation);
+            resListe.RegistrerReservation(reservation);
             resListe.PrintReservationer();
             Console.WriteLine("-------------------------------------------");
             resListe.FjernReservation(reservation); 
